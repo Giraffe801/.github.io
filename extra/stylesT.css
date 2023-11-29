@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.centered-menu {
+  margin-top: 20px;
+}
+
+button#menu-button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.menu {
+  display: none;
+  background-color: #222;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.menu.active {
+  display: block;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: 0.3s;
+  width: 100%;
+
+  display: block;
+}
+
+.menu a:hover {
+  background-color: #333;
+}
+
+/* Code for bed*/
+
+#embedded-container {
+  width: 100%;
+  max-width: 1000px; /* Increased max-width for a larger embedded content */
+  padding: 20px; /* Added padding for better spacing */
+}
+
+iframe {
+  width: 100%; /* Set the width to 100% to make it responsive */
+  height: 800px; /* Adjust the height to make the embedded content larger */
+  border: 0;
+}
+
+#countdown-timer {
+  font-size: 24px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
